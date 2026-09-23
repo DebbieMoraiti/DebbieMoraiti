@@ -15,7 +15,9 @@ My current focus is on developing a strong foundation for **Software Development
 
 My practical experience currently comes mainly from websites developed for real use, including:
 
-- **The Prisoners** — website for an Iron Maiden tribute band
+- **[The Prisoners](https://uptheprisoners.gr/)** — official website for an Iron Maiden tribute band  
+  [Production repository](https://github.com/uptheprisoners/uptheprisoners.github.io)
+
 - **Stelios Sioulas** — professional website for a drummer and music educator
 
 These projects have given me experience working with real requirements, content, deployment and ongoing improvements.
