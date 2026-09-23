@@ -18,7 +18,8 @@ My practical experience currently comes mainly from websites developed for real 
 - **[The Prisoners](https://uptheprisoners.gr/)** — official website for an Iron Maiden tribute band  
   [Production repository](https://github.com/uptheprisoners/uptheprisoners.github.io)
 
-- **Stelios Sioulas** — professional website for a drummer and music educator
+- **[Stelios Sioulas](https://steliossioulas.gr/)** — professional website for a drummer and music educator  
+  [Production repository](https://github.com/stelios-sioulas/stelios-sioulas.github.io)
 
 These projects have given me experience working with real requirements, content, deployment and ongoing improvements.
 
