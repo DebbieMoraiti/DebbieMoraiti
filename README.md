@@ -1,4 +1,4 @@
-# Hi, I'm Debbie Moraiti 👋
+# Hi, I'm Debbie Moraiti
 
 I'm a **Computer Science student at the Hellenic Open University (HOU)**, currently completing my degree while building practical software development experience through real-world projects.
 
