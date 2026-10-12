@@ -4,6 +4,16 @@
 
 [Visit the live website](https://storyfields.gr/) · [Explore the source code](https://github.com/DebbieMoraiti/publication-site)
 
+## Visual references
+
+The images below are **actual editorial assets used in Storyfields**, not screenshots of the live site. They document the publication’s visual direction; the links open the current website.
+
+[![Storyfields editorial image featuring the band The Prisoners](https://raw.githubusercontent.com/DebbieMoraiti/publication-site/main/public/uploads/the-prisoners-live.webp)](https://storyfields.gr/)
+
+*Editorial photography from the project. Open the [live homepage](https://storyfields.gr/) to see the current layout.*
+
+For a live example of article presentation, see [Storyfields — Greek articles](https://storyfields.gr/el/archive/). The article templates include a title, summary, byline, publication date, reading time, tags and related stories.
+
 ## Overview
 
 Storyfields is an independent editorial website featuring stories about people, music, creativity and everyday life. It is a real, published project built to support ongoing writing and content management in **English and Greek**.
