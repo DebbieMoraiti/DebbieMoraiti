@@ -21,6 +21,9 @@ My practical experience currently comes mainly from websites developed for real 
 - **[Stelios Sioulas](https://steliossioulas.gr/)** — professional website for a drummer and music educator  
   [Production repository](https://github.com/stelios-sioulas/stelios-sioulas.github.io)
 
+- **[Storyfields](https://storyfields.gr/)** — independent bilingual editorial publication built with Astro  
+  [Case study](case-studies/storyfields.md) · [Source code](https://github.com/DebbieMoraiti/publication-site)
+
 These projects have given me experience working with real requirements, content, deployment and ongoing improvements.
 
 ## Education
