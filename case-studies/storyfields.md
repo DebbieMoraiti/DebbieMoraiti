@@ -4,15 +4,24 @@
 
 [Visit the live website](https://storyfields.gr/) · [Explore the source code](https://github.com/DebbieMoraiti/publication-site)
 
-## Visual references
+## Visual walkthrough
 
-The images below are **actual editorial assets used in Storyfields**, not screenshots of the live site. They document the publication’s visual direction; the links open the current website.
+Three real screenshots have been selected for the final portfolio presentation. Until the approved image files are available in this repository, these links let reviewers inspect the corresponding live pages without showing a misleading mockup.
 
-[![Storyfields editorial image featuring the band The Prisoners](https://raw.githubusercontent.com/DebbieMoraiti/publication-site/main/public/uploads/the-prisoners-live.webp)](https://storyfields.gr/)
+**01 — Homepage / lead story**  
+[Open the Storyfields homepage](https://storyfields.gr/). This view establishes the newspaper-inspired masthead, editorial hierarchy and featured article.
 
-*Editorial photography from the project. Open the [live homepage](https://storyfields.gr/) to see the current layout.*
+**02 — Homepage / latest stories & topics**  
+[Explore the homepage below the lead story](https://storyfields.gr/#stories). This area shows the article-card grid, reading metadata and black-and-white topic photography.
 
-For a live example of article presentation, see [Storyfields — Greek articles](https://storyfields.gr/el/archive/). The article templates include a title, summary, byline, publication date, reading time, tags and related stories.
+**03 — Topic archive**  
+[Explore the Music topic](https://storyfields.gr/el/topics/music/). This shows how articles are organized by editorial category.
+
+<!-- Add the three approved screenshots here after the actual files have been uploaded:
+![Storyfields homepage — lead story](assets/storyfields-homepage-hero.png)
+![Storyfields homepage — latest stories and topics](assets/storyfields-homepage-sections.png)
+![Storyfields — topic archive](assets/storyfields-topic-archive.png)
+Do not use editorial photographs or concept mockups as substitutes for live-site screenshots. -->
 
 ## Overview
 
