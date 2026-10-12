@@ -1,0 +1,46 @@
+name: Capture Storyfields portfolio screenshots
+
+on:
+  push:
+    branches:
+      - portfolio/storyfields-case-study-20261012
+    paths:
+      - .github/workflows/capture-storyfields.yml
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Check out case study branch
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Capture actual live pages
+        shell: bash
+        run: |
+          set -euo pipefail
+          CHROME="$(command -v google-chrome || command -v google-chrome-stable || command -v chromium || true)"
+          if [[ -z "$CHROME" ]]; then echo "No Chrome executable available"; exit 1; fi
+          mkdir -p case-studies/images
+          curl --fail --location --silent --show-error --retry 2 https://storyfields.gr/ -o /dev/null
+          curl --fail --location --silent --show-error --retry 2 https://storyfields.gr/articles/stelios-sioulas-behind-the-kit/ -o /dev/null
+          "$CHROME" --headless --no-sandbox --disable-gpu --hide-scrollbars --disable-dev-shm-usage --force-device-scale-factor=1 --window-size=1440,1000 --virtual-time-budget=8500 --screenshot=case-studies/images/storyfields-homepage.png 'https://storyfields.gr/'
+          "$CHROME" --headless --no-sandbox --disable-gpu --hide-scrollbars --disable-dev-shm-usage --force-device-scale-factor=1 --window-size=1440,1000 --virtual-time-budget=8500 --screenshot=case-studies/images/storyfields-article.png 'https://storyfields.gr/articles/stelios-sioulas-behind-the-kit/'
+          for image in case-studies/images/storyfields-homepage.png case-studies/images/storyfields-article.png; do
+            file "$image"
+            test "$(stat -c %s "$image")" -gt 12000
+          done
+
+      - name: Commit captured screenshots to draft branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add case-studies/images/storyfields-homepage.png case-studies/images/storyfields-article.png
+          git diff --staged --quiet || (git commit -m "Add real Storyfields page screenshots" && git push)
