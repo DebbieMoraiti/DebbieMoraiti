@@ -23,6 +23,18 @@ Three real screenshots have been selected for the final portfolio presentation. 
 ![Storyfields — topic archive](assets/storyfields-topic-archive.png)
 Do not use editorial photographs or concept mockups as substitutes for live-site screenshots. -->
 
+## Design concept & responsive exploration
+
+Before the final launch, I explored a newspaper-inspired visual direction through a **concept mockup** showing a desktop homepage, an article layout and mobile views together.
+
+The exploration helped establish the editorial hierarchy, serif typography, paper-like palette and responsive approach. **This is an early design visualization, not a screenshot of the published site.** The live implementation evolved from it, so some content and layout details differ.
+
+<!-- Approved concept image: assets/storyfields-design-concept.webp.
+After uploading the actual image to this branch, replace this comment with:
+![Early Storyfields newspaper-style desktop and mobile design concept](assets/storyfields-design-concept.webp)
+*Early design exploration — concept mockup, not the published website.*
+-->
+
 ## Overview
 
 Storyfields is an independent editorial website featuring stories about people, music, creativity and everyday life. It is a real, published project built to support ongoing writing and content management in **English and Greek**.
