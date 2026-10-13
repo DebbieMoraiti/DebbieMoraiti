@@ -29,11 +29,9 @@ Before the final launch, I explored a newspaper-inspired visual direction throug
 
 The exploration helped establish the editorial hierarchy, serif typography, paper-like palette and responsive approach. **This is an early design visualization, not a screenshot of the published site.** The live implementation evolved from it, so some content and layout details differ.
 
-<!-- Approved concept image: assets/storyfields-design-concept.webp.
-After uploading the actual image to this branch, replace this comment with:
 ![Early Storyfields newspaper-style desktop and mobile design concept](assets/storyfields-design-concept.webp)
+
 *Early design exploration — concept mockup, not the published website.*
--->
 
 ## Overview
 
