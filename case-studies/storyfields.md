@@ -6,22 +6,25 @@
 
 ## Visual walkthrough
 
-Three real screenshots have been selected for the final portfolio presentation. Until the approved image files are available in this repository, these links let reviewers inspect the corresponding live pages without showing a misleading mockup.
+The screenshots below show the **published Storyfields website**, distinct from the earlier concept mockup.
 
-**01 — Homepage / lead story**  
-[Open the Storyfields homepage](https://storyfields.gr/). This view establishes the newspaper-inspired masthead, editorial hierarchy and featured article.
+**01 — Homepage / lead story**
 
-**02 — Homepage / latest stories & topics**  
-[Explore the homepage below the lead story](https://storyfields.gr/#stories). This area shows the article-card grid, reading metadata and black-and-white topic photography.
+![Published Storyfields homepage showing the masthead and featured article](assets/storyfields-homepage-hero.png)
 
-**03 — Topic archive**  
-[Explore the Music topic](https://storyfields.gr/el/topics/music/). This shows how articles are organized by editorial category.
+*Homepage and featured-story presentation. [View live](https://storyfields.gr/).*
 
-<!-- Add the three approved screenshots here after the actual files have been uploaded:
-![Storyfields homepage — lead story](assets/storyfields-homepage-hero.png)
-![Storyfields homepage — latest stories and topics](assets/storyfields-homepage-sections.png)
-![Storyfields — topic archive](assets/storyfields-topic-archive.png)
-Do not use editorial photographs or concept mockups as substitutes for live-site screenshots. -->
+**02 — Homepage / latest stories & topics**
+
+![Published Storyfields homepage showing latest stories and topic categories](assets/latest_stories_and_topics.webp)
+
+*Article-card grid, reading metadata and editorial topics. [View live](https://storyfields.gr/#stories).*
+
+**03 — Topic / archive page**
+
+![Published Storyfields article archive layout](assets/archives.webp)
+
+*How readers browse the publication's editorial content. [Explore the archive](https://storyfields.gr/el/archive/).*
 
 ## Design concept & responsive exploration
 
